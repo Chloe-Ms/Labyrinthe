@@ -1,0 +1,28 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Move.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Inputs/IMC_Default.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Interact.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/PC_Labyrinthe.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GM_Labyrinthe.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Orbit.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Inputs/IMC_Mouse.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_FirstPerson.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_FirstPersonGameMode.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/GM_FirstPerson.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GM_FirstPerson.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Trap.uasset",
+				"C:/Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Switch.uasset"
+			]
+		}
+	]
+}

@@ -6063,3 +6063,975 @@ UnknownFunction []
 [2023.01.20-16.37.40:606][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 11.1 sec)
 [2023.01.20-16.37.40:612][648]AssetCheck: New page: Asset Save: LabyrintheMap
 [2023.01.20-16.37.40:612][648]LogContentValidation: Display: Validating /Script/Engine.World /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap
+[2023.01.20-16.40.41:324][ 40]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.40.41:328][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.40.41:329][ 40]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:40:41)
+[2023.01.20-16.40.41:363][ 40]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.40.41:365][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002635s)
+[2023.01.20-16.40.41:365][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002667s)
+[2023.01.20-16.40.41:366][ 40]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.40.41:366][ 40]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.40.41:366][ 40]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2023.01.20-16.40.41:428][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.20-16.40.41:430][ 40]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.40.41:430][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.40.41:430][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.40.41:430][ 40]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.40.41:430][ 40]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.40.41:430][ 40]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.40.41:433][ 40]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.40.41:447][ 40]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.40.41:447][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.40.41:447][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.40.41:447][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.40.41:449][ 40]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.01.20-16.40.41:449][ 40]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.01.20-16.40.41:450][ 40]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.01.20-16.40.41:450][ 40]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.01.20-16.40.41:450][ 40]LogInit: FAudioDevice initialized.
+[2023.01.20-16.40.41:450][ 40]LogAudio: Display: Audio Device (ID: 36) registered with world 'LabyrintheMap'.
+[2023.01.20-16.40.41:453][ 40]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.40.41:454][ 40]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.40.41
+[2023.01.20-16.40.41:454][ 40]LogWorld: Bringing up level for play took: 0.001014
+[2023.01.20-16.40.41:456][ 40]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.01.20-16.40.41:458][ 40]PIE: Server logged in
+[2023.01.20-16.40.41:459][ 40]PIE: Play in editor total start time 0,13 seconds.
+[2023.01.20-16.40.44:165][349]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:173][350]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:182][351]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:190][352]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:198][353]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:206][354]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:215][355]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:223][356]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:232][357]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:240][358]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:248][359]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:256][360]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:265][361]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:273][362]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.44:282][363]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.40.48:282][843]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.48:323][848]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.48:332][849]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:073][ 58]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:082][ 59]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:090][ 60]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:098][ 61]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:107][ 62]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:115][ 63]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:123][ 64]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:132][ 65]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:140][ 66]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:148][ 67]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:157][ 68]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:165][ 69]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:174][ 70]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:181][ 71]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:189][ 72]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:198][ 73]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:206][ 74]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:215][ 75]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:223][ 76]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:232][ 77]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:715][135]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:723][136]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:732][137]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:740][138]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:749][139]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:756][140]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:765][141]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:773][142]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:782][143]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:790][144]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:799][145]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:806][146]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:815][147]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:823][148]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:832][149]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.50:840][150]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:206][194]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:216][195]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:223][196]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:232][197]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:240][198]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:248][199]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:257][200]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:265][201]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:273][202]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:282][203]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:290][204]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:299][205]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:306][206]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:315][207]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.40.51:323][208]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.41.00:149][267]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:157][268]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:166][269]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:174][270]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:182][271]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:191][272]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:199][273]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:207][274]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:215][275]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:224][276]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:233][277]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:241][278]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:249][279]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:258][280]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:266][281]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.00:274][282]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.01:543][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.41.01:543][430]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.41.01:543][430]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.41.01:543][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.41.01:577][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.41.01:582][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.41.01:638][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.41.01:639][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.20-16.41.01:640][430]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.20-16.41.01:647][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-16.41.01:683][431]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.01.20-16.41.51:416][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.41.51:422][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.41.51:422][551]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:41:51)
+[2023.01.20-16.41.51:443][551]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.41.51:447][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003595s)
+[2023.01.20-16.41.51:447][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.003638s)
+[2023.01.20-16.41.51:447][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.41.51:448][551]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.41.51:448][551]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2023.01.20-16.41.51:503][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.01.20-16.41.51:506][551]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.41.51:506][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.41.51:506][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.41.51:506][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.41.51:506][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.41.51:506][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.41.51:508][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.41.51:522][551]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.41.51:522][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.41.51:522][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.41.51:522][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.41.51:523][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.01.20-16.41.51:523][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.01.20-16.41.51:525][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.01.20-16.41.51:525][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.01.20-16.41.51:525][551]LogInit: FAudioDevice initialized.
+[2023.01.20-16.41.51:525][551]LogAudio: Display: Audio Device (ID: 37) registered with world 'LabyrintheMap'.
+[2023.01.20-16.41.51:527][551]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.41.51:528][551]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.41.51
+[2023.01.20-16.41.51:528][551]LogWorld: Bringing up level for play took: 0.001008
+[2023.01.20-16.41.51:530][551]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.01.20-16.41.51:532][551]PIE: Server logged in
+[2023.01.20-16.41.51:532][551]PIE: Play in editor total start time 0,111 seconds.
+[2023.01.20-16.41.53:427][762]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:434][763]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:443][764]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:451][765]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:459][766]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:468][767]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:476][768]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.53:484][769]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.56:463][120]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.56:471][121]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.57:987][303]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.58:963][420]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.58:971][421]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.58:980][422]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.58:987][423]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.58:996][424]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.59:004][425]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.59:013][426]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.59:021][427]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.41.59:629][500]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:096][556]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:363][588]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:371][589]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:621][619]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:879][650]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.00:888][651]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.42.06:993][383]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.07:002][384]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.07:010][385]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.07:284][418]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.07:293][419]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.07:301][420]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.42.11:663][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.42.11:663][939]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.42.11:663][939]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.42.11:663][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.42.11:671][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.42.11:675][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.42.11:731][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.42.11:731][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.20-16.42.11:733][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.20-16.42.11:738][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.20-16.42.11:780][940]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.01.20-16.45.04:060][101]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.20-16.45.04:075][101]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.20-16.49.38:574][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.49.38:617][957]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.49.38:618][957]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_LabyrintheEF40CF7642D6BF20E54877BA584C5DC8.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.49.38:625][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 11.2 sec)
+[2023.01.20-16.49.38:633][957]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.49.38:633][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.49.39:358][ 15]BlueprintLog: New page: Compile GI_Labyrinthe
+[2023.01.20-16.49.39:445][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.20-16.49.39:953][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.49.39:998][ 51]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.49.39:999][ 51]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe01F4B65D488794955D8E6B82A6695257.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.49.40:007][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 11.2 sec)
+[2023.01.20-16.49.40:013][ 51]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.49.40:013][ 51]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.49.41:165][142]LogSlate: Window 'GI_Labyrinthe' being destroyed
+[2023.01.20-16.49.41:168][142]LogSlate: Window 'GI_Labyrinthe' being destroyed
+[2023.01.20-16.49.41:204][142]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.49.41:204][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.49.41:463][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.20-16.49.41:463][142]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.49.41:464][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.49.41:640][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.20-16.49.41:640][142]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.49.41:640][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.49.41:767][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.20-16.49.41:767][142]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.49.41:767][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.49.41:904][142]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.49.41:904][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.49.42:213][165]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.49.42:217][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.49.42:218][165]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:49:42)
+[2023.01.20-16.49.42:244][165]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.49.42:247][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002523s)
+[2023.01.20-16.49.42:247][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002555s)
+[2023.01.20-16.49.42:247][165]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.49.42:247][165]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.49.42:248][165]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2023.01.20-16.49.42:484][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.20-16.49.42:495][165]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.49.42:495][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.49.42:495][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.49.42:495][165]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.49.42:495][165]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.49.42:495][165]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.49.42:497][165]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.49.42:512][165]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.49.42:512][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.49.42:512][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.49.42:512][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.49.42:512][165]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.01.20-16.49.42:512][165]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.01.20-16.49.42:515][165]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.01.20-16.49.42:515][165]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.01.20-16.49.42:515][165]LogInit: FAudioDevice initialized.
+[2023.01.20-16.49.42:515][165]LogAudio: Display: Audio Device (ID: 38) registered with world 'LabyrintheMap'.
+[2023.01.20-16.49.42:518][165]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.49.42:519][165]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.49.42
+[2023.01.20-16.49.42:519][165]LogWorld: Bringing up level for play took: 0.001081
+[2023.01.20-16.49.42:521][165]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2023.01.20-16.49.42:523][165]PIE: Server logged in
+[2023.01.20-16.49.42:524][165]PIE: Play in editor total start time 0,307 seconds.
+[2023.01.20-16.49.46:823][528]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:831][529]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:839][530]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:848][531]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:857][532]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:864][533]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:872][534]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:881][535]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:890][536]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:897][537]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:906][538]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:914][539]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:922][540]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.46:931][541]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.49.51:900][137]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:900][137]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:900][137]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:907][138]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:907][138]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:908][138]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:915][139]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:915][139]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:915][139]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:924][140]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:924][140]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:924][140]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:931][141]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:931][141]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:933][141]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:941][142]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:941][142]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:941][142]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.49.51:949][143]LogBlueprintUserMessages: [GI_Labyrinthe_C_6] The door is open
+[2023.01.20-16.49.51:949][143]PIE: Warning: Mobility of /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.01.20-16.49.51:949][143]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.50.02:358][ 80]LogBlueprintUserMessages: [BP_Trap_C_5] WATCH OUT
+[2023.01.20-16.50.11:129][459]LogBlueprintUserMessages: [BP_Trap_C_5] WATCH OUT
+[2023.01.20-16.50.15:280][708]LogBlueprintUserMessages: [BP_Trap_C_4] WATCH OUT
+[2023.01.20-16.50.18:697][913]LogBlueprintUserMessages: [BP_Trap_C_5] WATCH OUT
+[2023.01.20-16.50.20:113][998]LogBlueprintUserMessages: [BP_Trap_C_5] WATCH OUT
+[2023.01.20-16.50.27:385][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.50.27:385][442]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.50.27:385][442]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.50.27:385][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.50.27:389][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.50.27:393][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.50.27:419][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-16.50.27:419][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.20-16.50.27:421][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.20-16.50.27:424][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.50.27:426][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.20-16.50.27:520][443]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.01.20-16.50.29:376][577]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-16.50.29:391][577]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-16.50.35:095][983]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.50.35:334][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2023.01.20-16.50.35:375][983]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Maps/LabyrintheMap
+[2023.01.20-16.50.35:378][983]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/LabyrintheMap8FC35DBF4EC8C7D67EBACABCEBCB699A.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap'
+[2023.01.20-16.50.35:399][983]LogFileHelpers: Saving map 'LabyrintheMap' took 0.180
+[2023.01.20-16.50.35:431][983]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 11.6 sec)
+[2023.01.20-16.50.35:447][983]AssetCheck: New page: Asset Save: LabyrintheMap
+[2023.01.20-16.50.35:447][983]LogContentValidation: Display: Validating /Script/Engine.World /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap
+[2023.01.20-16.50.36:058][ 21]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.50.36:062][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.50.36:062][ 21]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:50:36)
+[2023.01.20-16.50.36:093][ 21]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.50.36:097][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2023.01.20-16.50.36:097][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002640s)
+[2023.01.20-16.50.36:097][ 21]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.50.36:098][ 21]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.50.36:098][ 21]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2023.01.20-16.50.36:124][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.01.20-16.50.36:126][ 21]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.50.36:126][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.50.36:126][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.50.36:126][ 21]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.50.36:126][ 21]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.50.36:126][ 21]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.50.36:128][ 21]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.01.20-16.50.36:141][ 21]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.01.20-16.50.36:144][ 21]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.01.20-16.50.36:144][ 21]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.01.20-16.50.36:144][ 21]LogInit: FAudioDevice initialized.
+[2023.01.20-16.50.36:144][ 21]LogAudio: Display: Audio Device (ID: 39) registered with world 'LabyrintheMap'.
+[2023.01.20-16.50.36:147][ 21]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.50.36:148][ 21]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.50.36
+[2023.01.20-16.50.36:148][ 21]LogWorld: Bringing up level for play took: 0.000962
+[2023.01.20-16.50.36:149][ 21]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.01.20-16.50.36:151][ 21]PIE: Server logged in
+[2023.01.20-16.50.36:152][ 21]PIE: Play in editor total start time 0,089 seconds.
+[2023.01.20-16.50.40:189][366]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:200][367]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:213][368]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:224][369]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:236][370]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:248][371]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:260][372]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:272][373]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:283][374]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.40:294][375]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.50.45:385][861]LogBlueprintUserMessages: [GI_Labyrinthe_C_7] The door is open
+[2023.01.20-16.50.45:385][861]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.50.45:394][862]LogBlueprintUserMessages: [GI_Labyrinthe_C_7] The door is open
+[2023.01.20-16.50.45:394][862]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.50.58:585][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.50.58:586][351]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.50.58:586][351]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.50.58:586][351]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.50.58:591][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.50.58:596][351]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.50.58:622][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.50.58:622][351]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.01.20-16.50.58:624][351]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.01.20-16.50.58:631][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.01.20-16.50.58:677][352]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.01.20-16.51.04:960][494]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/Game/PC_Labyrinthe.PC_Labyrinthe
+[2023.01.20-16.51.04:961][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.51.08:769][680]LogSlate: Window 'PC_Labyrinthe' being destroyed
+[2023.01.20-16.51.08:773][680]LogSlate: Window 'PC_Labyrinthe' being destroyed
+[2023.01.20-16.51.08:774][680]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.51.08:774][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.51.21:151][405]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.51.21:151][405]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.51.26:775][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.51.26:822][707]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.51.26:823][707]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe8CD1FCBF4D35006428137498CE4A6FA1.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.51.26:831][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 11.6 sec)
+[2023.01.20-16.51.26:837][707]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.51.26:837][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.51.28:390][823]BlueprintLog: New page: Compile GI_Labyrinthe
+[2023.01.20-16.51.28:440][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.01.20-16.51.29:231][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.51.29:276][881]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.51.29:276][881]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe21E4AC8946E089103F6E8A9898843A89.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.51.29:285][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 11.7 sec)
+[2023.01.20-16.51.29:291][881]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.51.29:291][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.51.47:222][525]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-16.51.47:223][525]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-16.51.47:223][525]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-16.51.49:568][525]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.20-16.51.49:576][525]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.20-16.51.49:582][525]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.20-16.51.49:592][526]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.20-16.51.56:595][126]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PassageSecret
+[2023.01.20-16.51.56:601][126]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.20-16.52.00:409][449]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/BP_PassageSecret.BP_PassageSecret
+[2023.01.20-16.52.00:409][449]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.52.01:013][449]LogViewport: Scene viewport resized to 954x641, mode Windowed.
+[2023.01.20-16.52.09:294][945]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.52.09:294][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.52.12:700][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.20-16.52.13:543][216]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-16.52.13:590][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.01.20-16.52.13:629][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-16.52.13:665][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.01.20-16.53.03:386][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.53.03:476][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.01.20-16.53.03:485][681]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Maps/LabyrintheMap
+[2023.01.20-16.53.03:485][681]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/LabyrintheMapA326F87E4F356459C90937BB08893C3B.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap'
+[2023.01.20-16.53.03:491][681]LogFileHelpers: Saving map 'LabyrintheMap' took 0.067
+[2023.01.20-16.53.03:498][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 11.8 sec)
+[2023.01.20-16.53.03:504][681]AssetCheck: New page: Asset Save: LabyrintheMap
+[2023.01.20-16.53.03:504][681]LogContentValidation: Display: Validating /Script/Engine.World /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap
+[2023.01.20-16.53.04:150][742]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.53.04:153][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.53.04:153][742]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:53:04)
+[2023.01.20-16.53.04:185][742]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.53.04:192][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006378s)
+[2023.01.20-16.53.04:192][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.006447s)
+[2023.01.20-16.53.04:192][742]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.53.04:192][742]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.53.04:192][742]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2023.01.20-16.53.04:226][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.01.20-16.53.04:228][742]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.53.04:228][742]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.53.04:228][742]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.53.04:229][742]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.53.04:229][742]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.53.04:229][742]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.53.04:231][742]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.53.04:244][742]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.53.04:245][742]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.53.04:245][742]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.53.04:245][742]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.53.04:245][742]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.01.20-16.53.04:245][742]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.01.20-16.53.04:247][742]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.01.20-16.53.04:247][742]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.01.20-16.53.04:247][742]LogInit: FAudioDevice initialized.
+[2023.01.20-16.53.04:247][742]LogAudio: Display: Audio Device (ID: 40) registered with world 'LabyrintheMap'.
+[2023.01.20-16.53.04:250][742]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.53.04:251][742]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.53.04
+[2023.01.20-16.53.04:251][742]LogWorld: Bringing up level for play took: 0.001081
+[2023.01.20-16.53.04:252][742]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2023.01.20-16.53.04:254][742]PIE: Server logged in
+[2023.01.20-16.53.04:255][742]PIE: Play in editor total start time 0,102 seconds.
+[2023.01.20-16.53.08:429][918]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:437][919]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:444][920]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:454][921]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:461][922]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:470][923]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:478][924]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:487][925]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:494][926]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:503][927]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:512][928]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:520][929]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:529][930]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:537][931]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:545][932]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:554][933]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:561][934]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:570][935]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:579][936]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:586][937]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:595][938]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:603][939]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:611][940]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:620][941]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:628][942]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:637][943]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:645][944]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.08:653][945]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.53.13:598][538]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:598][538]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:606][539]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:606][539]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:615][540]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:615][540]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:622][541]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:622][541]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:631][542]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:631][542]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:640][543]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:640][543]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:647][544]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:647][544]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:656][545]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:656][545]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:664][546]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:664][546]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:672][547]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:672][547]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:681][548]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:682][548]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:690][549]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:690][549]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:697][550]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:697][550]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:706][551]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:706][551]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:714][552]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:714][552]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:722][553]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:723][553]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:731][554]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:731][554]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.13:739][555]LogBlueprintUserMessages: [GI_Labyrinthe_C_8] The door is open
+[2023.01.20-16.53.13:740][555]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.53.29:485][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.53.29:485][440]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.53.29:485][440]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.53.29:485][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.53.29:489][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.53.29:493][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.53.29:526][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.53.29:526][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.20-16.53.29:528][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.20-16.53.29:534][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.20-16.53.29:680][441]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2023.01.20-16.53.52:846][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.53.52:887][553]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.53.52:887][553]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe07D071C040519335CB2B7493C70C5231.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.53.52:895][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 11.8 sec)
+[2023.01.20-16.53.52:902][553]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.53.52:902][553]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.53.53:220][579]BlueprintLog: New page: Compile GI_Labyrinthe
+[2023.01.20-16.53.53:265][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.20-16.53.55:360][770]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.53.55:364][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.53.55:364][770]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:53:55)
+[2023.01.20-16.53.55:385][770]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.53.55:387][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002448s)
+[2023.01.20-16.53.55:387][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002480s)
+[2023.01.20-16.53.55:387][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.53.55:388][770]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.53.55:388][770]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2023.01.20-16.53.55:420][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.01.20-16.53.55:422][770]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.53.55:422][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.53.55:422][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.53.55:424][770]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.53.55:424][770]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.53.55:424][770]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.53.55:426][770]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.53.55:439][770]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.53.55:439][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.53.55:439][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.53.55:439][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.53.55:439][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.01.20-16.53.55:439][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.01.20-16.53.55:441][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.01.20-16.53.55:441][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.01.20-16.53.55:441][770]LogInit: FAudioDevice initialized.
+[2023.01.20-16.53.55:441][770]LogAudio: Display: Audio Device (ID: 41) registered with world 'LabyrintheMap'.
+[2023.01.20-16.53.55:444][770]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.53.55:445][770]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.53.55
+[2023.01.20-16.53.55:445][770]LogWorld: Bringing up level for play took: 0.000974
+[2023.01.20-16.53.55:447][770]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2023.01.20-16.53.55:448][770]PIE: Server logged in
+[2023.01.20-16.53.55:449][770]PIE: Play in editor total start time 0,086 seconds.
+[2023.01.20-16.53.57:295][969]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.02:012][535]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:012][535]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:020][536]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:020][536]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:028][537]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:028][537]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:037][538]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:037][538]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:044][539]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:046][539]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:054][540]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:054][540]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:062][541]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:062][541]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:070][542]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:070][542]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:079][543]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:079][543]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:087][544]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:087][544]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:095][545]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:095][545]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:103][546]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:103][546]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:112][547]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:112][547]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:120][548]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:120][548]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:129][549]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:129][549]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:137][550]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:137][550]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:145][551]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:145][551]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:154][552]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:154][552]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:161][553]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:162][553]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.02:171][554]LogBlueprintUserMessages: [GI_Labyrinthe_C_9] The door is open
+[2023.01.20-16.54.02:171][554]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.11:245][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.54.11:245][498]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.54.11:245][498]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.54.11:245][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.54.11:249][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.54.11:252][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.54.11:284][498]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-16.54.11:286][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.01.20-16.54.11:287][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.01.20-16.54.11:291][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.54.11:293][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.20-16.54.11:584][499]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.01.20-16.54.30:582][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.54.30:623][695]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.54.30:624][695]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe4FAA32834D86EFBE95CD8F881ABB5EF3.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.54.30:632][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 11.9 sec)
+[2023.01.20-16.54.30:639][695]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.54.30:639][695]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.54.31:504][760]BlueprintLog: New page: Compile GI_Labyrinthe
+[2023.01.20-16.54.31:548][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.01.20-16.54.32:047][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.54.32:083][793]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.54.32:084][793]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_LabyrintheE1AC66B54716CBB6CF9BE6B02ABF4086.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.54.32:091][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 11.9 sec)
+[2023.01.20-16.54.32:097][793]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.54.32:097][793]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.54.34:819][ 47]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.54.34:824][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.54.34:824][ 47]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:54:34)
+[2023.01.20-16.54.34:854][ 47]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.54.34:858][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002470s)
+[2023.01.20-16.54.34:858][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002501s)
+[2023.01.20-16.54.34:858][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.54.34:858][ 47]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.54.34:859][ 47]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2023.01.20-16.54.34:891][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.01.20-16.54.34:894][ 47]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.54.34:894][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.54.34:894][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.54.34:894][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.54.34:894][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.54.34:894][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.54.34:896][ 47]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.01.20-16.54.34:910][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.01.20-16.54.34:912][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.01.20-16.54.34:912][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.01.20-16.54.34:912][ 47]LogInit: FAudioDevice initialized.
+[2023.01.20-16.54.34:912][ 47]LogAudio: Display: Audio Device (ID: 42) registered with world 'LabyrintheMap'.
+[2023.01.20-16.54.34:915][ 47]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.54.34:916][ 47]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.54.34
+[2023.01.20-16.54.34:916][ 47]LogWorld: Bringing up level for play took: 0.000991
+[2023.01.20-16.54.34:917][ 47]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.01.20-16.54.34:919][ 47]PIE: Server logged in
+[2023.01.20-16.54.34:920][ 47]PIE: Play in editor total start time 0,096 seconds.
+[2023.01.20-16.54.36:532][225]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.36:540][226]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.36:549][227]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.36:557][228]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.36:566][229]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.36:574][230]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.54.41:250][791]LogBlueprintUserMessages: [GI_Labyrinthe_C_10] The door is open
+[2023.01.20-16.54.41:250][791]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.41:475][818]LogBlueprintUserMessages: [GI_Labyrinthe_C_10] The door is open
+[2023.01.20-16.54.41:475][818]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.41:483][819]LogBlueprintUserMessages: [GI_Labyrinthe_C_10] The door is open
+[2023.01.20-16.54.41:483][819]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.41:492][820]LogBlueprintUserMessages: [GI_Labyrinthe_C_10] The door is open
+[2023.01.20-16.54.41:492][820]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.54.49:135][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.54.49:135][714]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.54.49:135][714]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.54.49:135][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.54.49:140][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.54.49:145][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.54.49:178][714]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-16.54.49:178][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.01.20-16.54.49:180][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.01.20-16.54.49:184][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.54.49:186][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.20-16.54.49:237][715]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.01.20-16.54.56:885][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.54.56:935][177]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.54.56:935][177]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe22ECB2914906FC3580DAD8942CF64822.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.54.56:943][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 12.0 sec)
+[2023.01.20-16.54.56:948][177]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.54.56:948][177]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.54.57:734][237]BlueprintLog: New page: Compile GI_Labyrinthe
+[2023.01.20-16.54.57:779][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-16.54.59:907][412]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.54.59:911][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.54.59:912][412]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:54:59)
+[2023.01.20-16.54.59:945][412]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.54.59:950][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004095s)
+[2023.01.20-16.54.59:950][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.004141s)
+[2023.01.20-16.54.59:950][412]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.54.59:950][412]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.54.59:950][412]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2023.01.20-16.54.59:985][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.20-16.54.59:988][412]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.54.59:988][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.54.59:988][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.54.59:988][412]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.54.59:989][412]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.54.59:989][412]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.54.59:990][412]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.55.00:004][412]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.55.00:004][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.55.00:004][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.55.00:004][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.55.00:004][412]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2023.01.20-16.55.00:004][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2023.01.20-16.55.00:007][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2023.01.20-16.55.00:007][412]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2023.01.20-16.55.00:007][412]LogInit: FAudioDevice initialized.
+[2023.01.20-16.55.00:007][412]LogAudio: Display: Audio Device (ID: 43) registered with world 'LabyrintheMap'.
+[2023.01.20-16.55.00:010][412]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.55.00:011][412]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.55.00
+[2023.01.20-16.55.00:011][412]LogWorld: Bringing up level for play took: 0.001022
+[2023.01.20-16.55.00:012][412]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.01.20-16.55.00:016][412]PIE: Server logged in
+[2023.01.20-16.55.00:016][412]PIE: Play in editor total start time 0,105 seconds.
+[2023.01.20-16.55.03:079][762]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:087][763]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:095][764]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:103][765]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:112][766]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:121][767]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:128][768]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:137][769]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:145][770]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:154][771]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:162][772]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.03:170][773]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.55.07:401][279]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:401][279]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:409][280]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:409][280]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:418][281]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:418][281]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:764][321]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:764][321]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:772][322]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:772][322]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:781][323]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:781][323]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.07:790][324]LogBlueprintUserMessages: [GI_Labyrinthe_C_11] The door is open
+[2023.01.20-16.55.07:790][324]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.55.18:145][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.55.18:145][529]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.55.18:146][529]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.55.18:146][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.55.18:150][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.55.18:154][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.55.18:186][529]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-16.55.18:186][529]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.01.20-16.55.18:188][529]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.01.20-16.55.18:192][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.55.18:194][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-16.55.18:248][530]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.01.20-16.55.41:508][318]LogSlate: Window 'GI_Labyrinthe' being destroyed
+[2023.01.20-16.55.41:516][318]LogSlate: Window 'GI_Labyrinthe' being destroyed
+[2023.01.20-16.55.41:518][318]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.55.41:518][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.55.44:062][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.20-16.55.44:921][529]LogSlate: Window 'Save Content' being destroyed
+[2023.01.20-16.55.44:929][529]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.55.44:962][529]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe
+[2023.01.20-16.55.44:964][529]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/GI_Labyrinthe4AB1207145358E250ED6EEBAB3CC9264.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.uasset'
+[2023.01.20-16.55.44:971][529]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 12.0 sec)
+[2023.01.20-16.55.44:977][529]AssetCheck: New page: Asset Save: GI_Labyrinthe
+[2023.01.20-16.55.44:977][529]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Game/GI_Labyrinthe.GI_Labyrinthe
+[2023.01.20-16.55.48:203][730]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.55.48:203][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.56.49:246][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.56.49:314][ 48]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.56.49:314][ 48]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_Torche329FD6B94EDE67EC79B221803B2CD96F.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.56.49:324][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 12.1 sec)
+[2023.01.20-16.56.49:332][ 48]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.56.49:332][ 48]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.56.49:797][ 83]BlueprintLog: New page: Compile BP_Torche
+[2023.01.20-16.56.49:856][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.20-16.56.50:337][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.56.50:397][114]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.56.50:398][114]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_Torche8B1619D34746153D7EE135B3BAABD428.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.56.50:406][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 12.2 sec)
+[2023.01.20-16.56.50:412][114]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.56.50:412][114]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.56.58:635][748]LogSlate: Window 'BP_Torche' being destroyed
+[2023.01.20-16.56.58:645][748]LogSlate: Window 'BP_Torche' being destroyed
+[2023.01.20-16.56.58:685][748]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.56.58:685][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.57.01:089][848]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Switch.BP_Switch
+[2023.01.20-16.57.01:091][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.57.25:914][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.57.25:975][474]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Switch
+[2023.01.20-16.57.25:976][474]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_Switch8BE7991C4C386D4A25743BA936F54CC0.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Switch.uasset'
+[2023.01.20-16.57.25:984][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 12.2 sec)
+[2023.01.20-16.57.25:990][474]AssetCheck: New page: Asset Save: BP_Switch
+[2023.01.20-16.57.25:990][474]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Switch.BP_Switch
+[2023.01.20-16.57.50:905][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.57.50:974][113]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Switch
+[2023.01.20-16.57.50:975][113]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_Switch2BDDB453497E02D9B88ED7BBECF086BD.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Switch.uasset'
+[2023.01.20-16.57.50:984][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 12.3 sec)
+[2023.01.20-16.57.50:990][113]AssetCheck: New page: Asset Save: BP_Switch
+[2023.01.20-16.57.50:990][113]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Switch.BP_Switch
+[2023.01.20-16.57.52:704][243]BlueprintLog: New page: Compile BP_Switch
+[2023.01.20-16.57.52:763][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.20-16.57.53:231][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.57.53:295][272]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Switch
+[2023.01.20-16.57.53:296][272]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_SwitchF3D967C24D9B5D31FBF8BA9EB192C964.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Switch.uasset'
+[2023.01.20-16.57.53:304][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 12.4 sec)
+[2023.01.20-16.57.53:309][272]AssetCheck: New page: Asset Save: BP_Switch
+[2023.01.20-16.57.53:309][272]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Switch.BP_Switch
+[2023.01.20-16.57.55:387][434]LogSlate: Window 'BP_Switch' being destroyed
+[2023.01.20-16.57.55:398][434]LogSlate: Window 'BP_Switch' being destroyed
+[2023.01.20-16.57.55:435][434]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.57.55:435][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.57.57:165][561]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.57.57:166][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.58.01:410][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.58.01:472][834]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.58.01:473][834]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_TorcheEEB7FD09490ABBA75B2372B440F5513B.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.58.01:481][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 12.5 sec)
+[2023.01.20-16.58.01:487][834]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.58.01:487][834]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.58.02:048][876]BlueprintLog: New page: Compile BP_Torche
+[2023.01.20-16.58.02:109][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.20-16.58.02:425][893]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.58.02:488][893]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.58.02:488][893]LogSavePackage: Moving '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Saved/BP_Torche20204890446B78CB040FFE9A5F9D6251.tmp' to '../../../../../../Users/mllec/Documents/Cours/Unreal/Projet/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.58.02:496][893]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 12.5 sec)
+[2023.01.20-16.58.02:502][893]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.58.02:502][893]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.58.10:314][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-16.58.10:318][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-16.58.10:318][303]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 18:58:10)
+[2023.01.20-16.58.10:345][303]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.58.10:348][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002513s)
+[2023.01.20-16.58.10:348][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002544s)
+[2023.01.20-16.58.10:348][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-16.58.10:349][303]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-16.58.10:349][303]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2023.01.20-16.58.10:383][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.20-16.58.10:385][303]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-16.58.10:385][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-16.58.10:385][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-16.58.10:386][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-16.58.10:386][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-16.58.10:386][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-16.58.10:388][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-16.58.10:403][303]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.01.20-16.58.10:403][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-16.58.10:403][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-16.58.10:403][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-16.58.10:404][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2023.01.20-16.58.10:404][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2023.01.20-16.58.10:405][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2023.01.20-16.58.10:405][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2023.01.20-16.58.10:405][303]LogInit: FAudioDevice initialized.
+[2023.01.20-16.58.10:405][303]LogAudio: Display: Audio Device (ID: 44) registered with world 'LabyrintheMap'.
+[2023.01.20-16.58.10:407][303]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-16.58.10:409][303]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 0) at 2023.01.20-17.58.10
+[2023.01.20-16.58.10:409][303]LogWorld: Bringing up level for play took: 0.001141
+[2023.01.20-16.58.10:411][303]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2023.01.20-16.58.10:412][303]PIE: Server logged in
+[2023.01.20-16.58.10:412][303]PIE: Play in editor total start time 0,095 seconds.
+[2023.01.20-16.58.12:279][448]LogSlate: Window 'BP_Torche' being destroyed
+[2023.01.20-16.58.12:284][448]LogSlate: Window 'BP_Torche' being destroyed
+[2023.01.20-16.58.12:287][448]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.58.12:287][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.58.13:660][598]LogBlueprintUserMessages: [BP_Switch_C_1] The door is unlocked
+[2023.01.20-16.58.19:544][304]LogBlueprintUserMessages: [GI_Labyrinthe_C_12] The door is open
+[2023.01.20-16.58.19:544][304]LogBlueprintUserMessages: [BP_Torche_C_1] The torch is lit
+[2023.01.20-16.58.24:406][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.58.24:406][880]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-16.58.24:406][880]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-16.58.24:406][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.58.24:410][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-16.58.24:414][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-16.58.24:440][880]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-16.58.24:440][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.01.20-16.58.24:442][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.01.20-16.58.24:445][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-16.58.24:449][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.20-16.58.24:507][881]LogPlayLevel: Display: Destroying online subsystem :Context_74
